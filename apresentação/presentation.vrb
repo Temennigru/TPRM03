@@ -1,0 +1,18 @@
+
+\begin{verbatim}
+sift map = sift(map)
+sift data = sift(data)
+matches = knnmatch(sift map, sift data)
+apply knn threshold(matches, 0.2)
+
+theta = ∑(i, j = 0 to length(matches)) (angle from i to j in data - angle from i to j in map) / number of pairs
+scale = ∑(i, j = 0 to length(matches)) (distance from i to j in data - distance from i to j in map) / number of pairs
+
+for each i in matches:
+        translate i relative to center of data
+        rotate i in theta
+        get the negative vector i so that it points from i to center of data
+        apply scale to the vector
+        apply the vector to the respective point in map
+get the average of results
+\end{verbatim}

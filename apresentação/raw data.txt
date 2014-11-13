@@ -1,0 +1,390 @@
+
+https://www.youtube.com/watch?v=FDCQZj7_Tho
+	Up until the 20th century, life and time are mysteries
+		Life
+			Substance called protoplasm
+			Alon Vitalle
+		Mind
+			Soul spirit
+			Behaviorism: Didn't exist
+			
+	Mid 20th century
+		Formalism of logic, revolutionizing biology and psychology
+		Language:
+			DNA : Code
+			Transcription, translation
+		Thought
+			Information
+			Beliefs are representation
+			Computation
+		Hume (mind)
+		Darwin
+		
+	1950s, 1960s
+		Watson and crick explained DNA
+		Marvin Minsky
+			
+	Sydney Brenner
+		Von Neumanns Celular automatas
+		C Ellegans, 302 neurons
+			Fully mapped nervous system
+		Lots of work in this area currently, and in the near future
+		Won't answer the question of "If we have two worms of the same genome, will it have the same nervous system"
+		"Consciousness will never be solved; But will dissapear" ... "50 years from now, people will look back and say 'what did they think they were talking about?'"
+		
+	Marvin Minsky
+		Father of AI and computational psychology
+		Turing prize
+		"Robotics made astounding progress in the 1960s and 70s; then something went wrong [...] you'll find student's are slaving over robots that play basketball, or soccer, or dance, or make funny faces at you; They aren't making them any smarter. They don't use, or don't realize, they need something like artificial intelligence"
+		
+		"Notice that people use the word consciousness for 35 different things"
+		
+	Noam Chomsky
+		Language as the future of cognitive science
+		Out of order expressions indicate the format of the mind
+		Hierarchical and recurrent structure language requires a mind capable of comprehending it
+
+	Emilio Bizzi
+		mirrored neurons
+			Learning by imitation
+		social learning
+		Computational tasks
+		Electrodes
+		Brain Machine interaction
+		
+	Barbara H Partee
+		Adding semantics to language
+		
+	Patrick Winston
+		"There could have been more progress in the last 20 years [...]"
+		"In my view, what went wrong, what went wrong in the 80s, is that we discovered that artificial intelligence technology is actually useful, and that lead to a kind of commercial distraction from which the field has never recovered"
+		"Mechanistic bulkanization of the field"
+			Centering around techniques, which stops the search for solutions to actual problems, but rather with problems in the mechanisms
+		
+	Leibniz view of the mind
+
+	Is the attitude that the mind can be put in a machine a new one?
+		
+	Turing
+		"The question of weather machines can think is too meaningless to deserve discussion"
+		Turing test, as an incentive to develop better machines
+
+		
+	Isaac Isimov
+		
+		
+	Freud wrote a paper in 1895 in neural science
+
+https://www.youtube.com/watch?v=z2exxj4COhU
+Alex Faaborg 
+	
+	Illusions demonstrate the mind as a machine
+		biology
+			dots 
+		software
+			checkered lines
+			line with gradients
+			corsai triangle
+			
+			
+Outline
+Time: 150 minutes
+Slides: ~50
+
+Topics
+	What is cognitive science
+		Wikipedia
+			Cognitive science is the interdisciplinary scientific study of the mind and its processes.[2] It examines what cognition is, what it does and how it works.
+		
+			http://en.wikipedia.org/wiki/Cognitive_science
+			
+		Enunciado do mestrado em ciência cognitiva da universidade de lisboa
+			A Ciência Cognitiva ocupa-se do estudo interdisciplinar da cognição --- comportamento, mente e cérebro --- combinando conceitos, métodos e ideias de várias áreas da Psicologia, Neurociência, Biologia evolutiva, Linguística, Filosofia, Antropologia e outras ciências sociais, e através da aplicação de métodos da Ciência da Computação, Matemática e Física.
+				http://www.mest_ciencia_cognitiva.di.fc.ul.pt/
+		
+	E o que é esse estado de cognição?
+		Descartes (1596 - 1650)
+			Eu penso, logo existo
+			Aspecto da "substância" divina
+			Representante da visão de muito tempo
+		Locke (1632 - 1704)
+			Consciência é o essencial que nos da uma identidade pessoal.
+			Associado a nós nos percebermos como entidade contínua, lembrando de nosso passado, transformando isto em uma unidade coesa.
+		Behaviorismo:
+			Watson, Skinner
+			Consciência não existe, é uma ilusão.
+			Promovido por experimentos que mostravam que o comportamento pode ser modelado e previsto cientificamente
+		Ressurgência
+			Behaviorismo não conseguiu modelar completamente a psicologia
+			Idéia do "Algoritmo Mental"
+		
+		
+		http://en.wikipedia.org/wiki/Ren%C3%A9_Descartes
+		http://en.wikipedia.org/wiki/John_Locke
+		
+		A "Stanford Encyclopedia of Philosophy" define 6 significados diferentes para o termo consciência, entre elas
+			Sentience -- Ser capaz de sentir e responder ao mundo
+			Wakefulness -- Estar alerta ao mundo
+			auto-consciência -- Perceber que ele percebe
+			"Como é ser" (Whit it is like) -- "Se sentir um humano"
+			Consciência transitiva (Transitive Consciousness) -- Estar consciente de algo
+				(em português usa-se ciente)
+			Possuir um estado de consciência (sendo o estado alguma forma de percepção interna e/ou externa)
+			
+		
+	Primeira Perspectiva: Progresso Científico
+	
+		What is the goal
+			Understand the cognitive process(es) (?)
+				It's a science, after all
+				Classical AI, for one, doesn't care
+			Create a machine that can think (?)
+				Language approaches, biology and sociology don't have this as a main goal
+			Solve mallities (?)
+				Only biology and psychology really care
+			Develop applications that are better taylored for people (?)
+				Biology doesn't really care
+
+		Which of these goals do you think are possible
+			Modelar completamente a mente (ao mesmo nível que modelamos hoje um computador, por exemplo)
+			Criar uma maquina pensante (capaz de ter um raciocínio suficiente para aprender e lidar com o mundo como uma pessoa faria, permitindo algumas diferenças, é claro)
+			Aprender o suficiente sobre a cognição para que este conhecimento seja útil tanto na terapia, como em outras aplicações que lidem com pessoas.
+					
+		Language
+			
+			Gramática e linguagem de Chomsky
+				Permite descrever, de forma finita, um conjunto infinito de frases
+			Podemos associar a gramática conceitos semânticos
+			
+			Interpretador de expressões em prolog
+			
+			Wolfram alpha
+				inputs:
+					draw a pink dodecahedron
+					what time is sunrise in belo horizonte tomorrow
+					trading chart for Petrobras from last Thursday through today
+			
+			Idéia:
+				Temos uma linguagem nata, uma metalinguagem
+				Esta meta-linguagem serve como forma de criar novas gramáticas
+						
+			
+		Classical AI
+			Problem solving
+			Branch and bound
+			Heuristics
+			
+			Reversi
+			
+			Classical robotics
+				Cinematic models
+			
+			http://www.kissthemachine.com/images/reversi-rules4.png
+			
+		Connectionist
+			Neural networks
+				Emergent properties
+				Input is converted into activations
+				Activations associate into patterns, driven by some objective function
+				Patterns produce results
+				Show semantic network concept
+
+			Example:
+				Single layer perceptron
+			
+			http://www.codeproject.com/KB/recipes/single_layer_perceptron/percept.jpg
+			
+		Biology
+		
+			Tenta subdividir o cérebro (ou sistema nervoso) em unidades funcionais, e então tenta entender os padrões e conexões de cada unidade
+			Premissa: Compreendendo cada unidade, compreende-se o todo
+			
+			Mapeamento do C-Elegans (1963)
+				1031 celulas
+				301 neurônios
+				Pode ser congelado e descongelado vivo
+			http://www.mcdonaldlab.biology.gatech.edu/images/celegans.jpg
+			
+			"Human Connectome Project" (2009)
+				34M USD
+				The Human Connectome Project (HCP) is a project to construct a map of the complete structural and functional neural connections in vivo within and across individuals.
+				
+				Open access
+				[Image]
+				
+				http://www.humanconnectomeproject.org/about/
+			
+			BRAIN Initiative (2014)
+				Brain Research through Advancing Innovative Neurotechnologies
+				3B USD (proposto)
+				Projeto genoma para o cerebro
+				Busca mapear a atividade de todos os neurônios no cerebro
+				300 exabytes de dados por ano
+			
+			
+			Projeto Blue Brain:
+				\emph{Reconstructing the brain piece by piece and building a virtual brain in a supercomputer—these are some of the goals of the Blue Brain Project.  The virtual brain will be an exceptional tool giving neuroscientists a new understanding of the brain and a better understanding of neurological diseases.}
+				Cada neurônio requer o poder computacional do equivalente a um notebook
+				Simulou uma coluna cortical em um rato
+				Indicadores sobre a causa de Alzheimers
+			
+				http://bluebrain.epfl.ch/page-56882-en.html
+				https://www.youtube.com/watch?v=LS3wMC2BpxU
+				
+			"Human Brain Project" (2013)
+				1.52Bi USD
+				Surge dos sucessos do "Blue Brain Project" (mesmo diretor)
+				
+				http://en.wikipedia.org/wiki/Human_Brain_Project
+						
+		Cognitive Psychology
+		
+			Estudo quase experimental do caso
+			Dissociações duplas
+			Método da subtração
+				fMRI
+
+			Lembre destes números
+1834\\
+1927\\
+1543\\
+1972\\
+1781\\
+1957\\
+1961\\
+1977\\
+1813\\
+1412\\
+
+			E agora destes
+1822\\
+1914\\
+1500\\
+1964\\
+1492\\
+1945\\
+1776\\
+1930\\
+1889\\
+1789\\
+		
+			Modelo de Baddeley sobre memória de trabalho
+			
+	Para onde estão indo estas abordagens?
+		
+		 
+			
+		IA Clássica
+			??? -- Continuar perdido na floresta?
+			"In my view, what went wrong, what went wrong in the 80s, is that we discovered that artificial intelligence technology is actually useful, and that lead to a kind of commercial distraction from which the field has never recovered"
+				-- Patrick Winston
+			Ninguém na área está fazendo as perguntas certas mais, o foco está em melhorar algoritmos de busca
+		
+		Connectionistas
+			Deep Learning
+				Técnica aproxima performance humana em tarefas como reconhecimento de objetos
+				Usa alguns preceitos biológicos
+			Um pouco perdido na floresta também 
+			Novos modelos de rede estão sempre surgindo
+
+		Psicologia
+			Continua a gerar modelos
+			Tecnologia na neurociência tem acelerado o ciclo de criação de novos modelos
+			Mapeamento funcional do cérebro 
+			
+		Biologia
+			Projetos massivos (mais de 4.5bi em investimentos, possivelmente)
+			Pode dar certo. Tivemos projetos com dificuldades semelhantes (escala dos dados e requerimento tecnológico):
+				Projeto Genoma
+				Projeto Manhattan
+			Pode servir como alça para modelagens mais abstratas nos outros campos
+			
+	Então como será o futuro?
+	[Crystal ball to see the future, caption reads "Referência Bibliográfica para este slide"]
+	http://leancut.co/blog/wp-content/uploads/2013/05/crystal-ball.jpg
+	
+		Com base no progresso científico, podemos ser cautelosamente otimistas.
+		Há progressões claras:
+			No ferramental biológico, simulamos sistemas cada vez maiores, a uma taxa exponencial
+			Nas técnicas de processamento, estamos gradualmente resolvendo os problemas
+				Percepção de objetos
+				Locomoção
+				Compreenção de linguagem
+		Porém, deve-se ter cuidado ao estimar:
+			Skynet já era pra existir há 17 anos
+			HAL 9000 já era pra existir há 13 anos
+			Onde estão nossos robôs overlords?
+
+		http://en.wikipedia.org/wiki/Skynet_(Terminator)
+			
+	Outra perspectiva: Poder computacional
+
+		É remotamente possível simular uma consciência na escala de um cérebro?
+			Note: Não é necessário para atingir todas as metas da ciência cognitiva
+		Vamos tentar estabelecer um piso para o poder computacional necessário
+		
+		Estimativa Fictícia
+			Lt. Commander Data [photo]
+				60 trilhões de operações por segundo
+					Menos que uma GPU
+				Memória de 100 petabytes
+					6.6% do espaço estimado da Google
+					
+		https://what-if.xkcd.com/63/
+		http://en.wikipedia.org/wiki/Talk%3AFLOPS#Data
+					
+		Estimativa BlueBrain
+			"Um processador de Notebook por neurônio" (BlueBrain, 2005)
+			100 bilhões de neurônios no cerebro humano
+			Assumindo linearidade, e um core duo de 3 GFlops para cada notebook
+			Em torno de 300 exaflops
+				600 vezes mais poder que o computador mais rápido do mundo
+				22 anos até que o computador mais rápido do mundo consiga fazer esta simulação
+					Assumindo a lei de Moore
+		
+		http://en.wikipedia.org/wiki/Tianhe-2
+		http://www.overclock.net/t/234124/core-2-duo-and-flops
+				
+		Estimativa Usando a pesquisa do Instituto Tecnológico de Okinawa:
+			Um décimo de um cérebro
+				1.73 Bi neurônios
+				10.5 Tri sinapses
+			1 segundo simulado em 40 minutos
+				Para tempo real, speedup de 24000x
+				~17 anos (assumindo a lei de moore)
+		http://www.extremetech.com/extreme/163051-simulating-1-second-of-human-brain-activity-takes-82944-processors
+				
+		Estimativa por espaço
+			Hipóteses:
+				Sabendo as conexões dos neurônios, pode-se simular uma consciência				
+				Neurônios não mantém muita informação sobre seu estado (< 100B)
+				Sinapses: Destino, tipo, última ativação, (< 30B)
+				No máximo 10% dos neurônios no cérebro estarão coativos, e as frequências de ativação dos mesmos é de ~5Hz
+				Cada sinapse requer ~10 operações P.F. por ativação
+			Então:
+				~30 TB de disco (um servidor médio)
+				500 TFlops de processamento (~250 GPUs)
+				Poderia ser simulado em tempo real hoje	
+			
+		Então como será o futuro?
+		[Crystal ball to see the future, caption reads "Referência Bibliográfica para este slide"]
+	
+		Com base no poder computacional necessitado, podemos ser cautelosamente otimistas (novamente).
+			Simulações correntes tratam dos mínimos detalhes dos neurônios
+			A tendência é criar modelos mais abstratos
+			Igual VLSI: A simulação do hardware atual é muito mais complexo que a simulação de seu algoritmo.
+			
+			
+	Third perspective: Media and Fiction
+	
+	
+	A Singularidade
+	
+	Apocalipse robótico
+	
+	
+	
+	
+	
+EwE Whisperer4 weeks ago (edited)
+Imagine for a minute a GOVERNMENT with MIND CONTROL. You think modern history and the fact no government has been positive for the people it exploits is bad wait till these sick perverts get MIND CONTROL... Current hell on earth is disney land compared to what it'll be like after that occurs. Governments throughout history do nothing but molest people what's going to change when no people have free will?
