@@ -587,15 +587,16 @@ def rps2dps(speed):
 
 def inversehyperbola(x, a, b, c):
     cap = 1
+    x = float(x)
     if (1/x) + b < 0:
-        print 'Warning: capping speed at ' + str(-(1/b))
+        print 'Warning(1): capping speed at ' + str(-(1/b))
         return 1
 
 
-    ret = a/((b + (1 / x))**c)
+    ret = a /((b + (1 / x))**c)
 
     if (ret >= 1):
-        print 'Warning: capping speed at ' + str(1 / ((a / y)**(1 / c) - b))
+        print 'Warning(2): capping speed at ' + str(1 / ((a / y)**(1 / c) - b))
         return 1
 
     return ret

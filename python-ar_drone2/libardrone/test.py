@@ -28,20 +28,88 @@ def signal_handler(signal, frame):
 
 signal.signal(signal.SIGINT, signal_handler)
 
-
+time.sleep(1)
 
 drone.takeoff()
 time.sleep(3)
 drone.hover()
-time.sleep(1)
+time.sleep(2)
 
-# Move 4.95 meters forward
+
+'''
+# Move 2 meters forward
 drone.speed = libardrone.hormps2dps(2) # 2 mps
 drone.move_forward()
-time.sleep(2.975)
+time.sleep(1.6)
 drone.hover()
-time.sleep (1)
+time.sleep (2)
 
+# Move 2 meters left
+drone.speed = libardrone.hormps2dps(2) # 2 mps
+drone.move_left()
+time.sleep(1.6)
+drone.hover()
+time.sleep (2)
+
+# Move 2 meters backward
+drone.speed = libardrone.hormps2dps(2) # 2 mps
+drone.move_backward()
+time.sleep(1.6)
+drone.hover()
+time.sleep (2)
+
+# Move 2 meters right
+drone.speed = libardrone.hormps2dps(2) # 2 mps
+drone.move_right()
+time.sleep(1.6)
+drone.hover()
+time.sleep (2)
+'''
+
+
+# Move 2 meters forward
+drone.speed = libardrone.hormps2dps(2) # 2 mps
+drone.move_forward()
+time.sleep(2.6)
+drone.hover()
+time.sleep (2)
+
+# Move 2 meters forward
+drone.speed = libardrone.rps2dps(0.25) # 2 mps
+drone.turn_left()
+time.sleep(2)
+drone.hover()
+time.sleep (2)
+
+# Move 2 meters forward
+drone.speed = libardrone.hormps2dps(2) # 2 mps
+drone.move_forward()
+time.sleep(2.6)
+drone.hover()
+time.sleep (2)
+
+# Move 2 meters forward
+drone.speed = libardrone.rps2dps(0.25) # 2 mps
+drone.turn_left()
+time.sleep(2)
+drone.hover()
+time.sleep (2)
+
+# Move 2 meters forward
+drone.speed = libardrone.hormps2dps(2) # 2 mps
+drone.move_forward()
+time.sleep(2.6)
+drone.hover()
+time.sleep (2)
+
+# Move 2 meters forward
+drone.speed = libardrone.rps2dps(0.25) # 2 mps
+drone.turn_left()
+time.sleep(2)
+drone.hover()
+time.sleep (2)
+
+'''
 # Turn around once
 drone.speed = libardrone.rps2dps(0.25) # 0.25 rps
 drone.turn_left()
@@ -62,9 +130,10 @@ drone.move_down()
 time.sleep(1)
 drone.hover()
 time.sleep (2)
+'''
 
 drone.land()
-time.sleep(2)
+time.sleep(3)
 drone.reset()
 drone.halt()
 quit()
