@@ -23,6 +23,7 @@ import sys
 import threading
 import multiprocessing
 import os
+import math
 
 import arnetwork
 
@@ -600,3 +601,76 @@ def inversehyperbola(x, a, b, c):
         return 1
 
     return ret
+
+def move(drone, x, y, z, theta):
+    x = float(x)
+    y = float(y)
+    z = float(z)
+    theta = float(theta)
+
+
+    if x < 0:
+        drone.speed = hormps2dps(2)
+        drone.move_backward()
+        sleep(-x/2 + 0.5)
+        drone.speed = 0
+        drone.hover()
+    elif x != 0:
+        drone.speed = hormps2dps(2)
+        drone.move_forward()
+        sleep(x/2 + 0.5)
+        drone.speed = 0
+        drone.hover()
+
+
+    sleep(2)
+
+    if y < 0:
+        drone.speed = hormps2dps(2)
+        drone.move_right()
+        sleep(-y/2 + 0.5)
+        drone.speed = 0
+        drone.hover()
+    elif y != 0:
+        drone.speed = hormps2dps(2)
+        drone.move_left()
+        sleep(y/2 + 0.5)
+        drone.speed = 0
+        drone.hover()
+
+
+    sleep(2)
+
+    if z < 0:
+        drone.speed = verdmps2dps(1)
+        drone.move_down()
+        sleep(-z)
+        drone.speed = 0
+        drone.hover()
+    elif z != 0:
+        drone.speed = verumps2dps(0.5)
+        drone.move_forward()
+        sleep(2*z)
+        drone.speed = 0
+        drone.hover()
+
+
+    sleep(2)
+
+    if theta < 0:
+        drone.speed = rps2dps(0.2)
+        drone.turn_right()
+        sleep(-theta/(0.4*math.pi))
+        drone.speed = 0
+        drone.hover()
+    elif theta != 0:
+        drone.speed = rps2dps(0.2)
+        drone.turn_left()
+        sleep(theta/(0.4*math.pi))
+        drone.speed = 0
+        drone.hover()
+
+
+    sleep(2)
+
+
